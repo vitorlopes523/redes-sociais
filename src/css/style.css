@@ -1,0 +1,87 @@
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
+
+img {
+  width: 100%;
+}
+
+img.avatar{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+  border: var(--primary-color) solid 4px;
+}
+
+h1 {
+  font-size: 32px;
+  color: var(--text-color);
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.username {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.lista-de-redes {
+  list-style: none;
+  margin: 28px 0;
+}
+
+.lista-de-redes li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: var(--text-color);
+  background: var(--primary-color);
+  text-transform: uppercase;
+  font-size: 14px;
+
+  margin-bottom: 16px;
+  border-radius: 6px;
+  padding-left: 95px;
+
+  transition: background 400ms;
+}
+
+.lista-de-redes li a:hover{
+  background: var(--primary-color-dark);
+}
+
+.lista-de-redes li a i {
+  padding-right: 10px;
+  font-size: 2em;
+}
+
+.cabecalho {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--text-color);
+  opacity: 0.6;
+  transition: opacity 400ms;
+}
+
+.cabecalho:hover {
+  opacity: 1;
+}
+
+.cabecalho a {
+  color: var(--text-color);
+}
+
+
+
+
