@@ -20,6 +20,7 @@ body {
 
 .trocar-fundo:hover {
   color: var(--color-button);
+  transform: scale(1.1);
   opacity: 1;
 }
 
@@ -47,6 +48,11 @@ img {
   height: 100px;
   padding: 3.7px;
   border: var(--primary-color) solid 4px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
 }
 
 .nome {
@@ -88,11 +94,12 @@ img {
   border-radius: 6px;
   padding-left: 95px;
 
-  transition: background 400ms ease-in-out;
+  transition: background 400ms ease-in-out, transform 0.3s ease-in-out;
 }
 
 .lista-de-redes .redes .redes-sociais:hover{
   background: var(--primary-color-dark);
+  transform: scale(1.1);
 }
 
 .lista-de-redes .redes .redes-sociais i {
