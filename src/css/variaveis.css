@@ -3,6 +3,7 @@ html {
   --text-color: white;
   --primary-color: blueviolet;
   --primary-color-dark: rgb(99, 18, 175);
+  --color-button: blueviolet;
 }
 
 .dark-pink {
@@ -10,4 +11,13 @@ html {
   --text-color: #1F000B;
   --primary-color: #D6336C;
   --primary-color-dark: #A61E4D;
+  --color-button: black;
 }
+
+/* .dark-blueviolet {
+  --bg-color : black;
+  --text-color: white;
+  --primary-color: blueviolet;
+  --primary-color-dark: rgb(99, 18, 175);
+  --color-button: blueviolet;
+} */

@@ -1,19 +1,47 @@
 body {
+  height: 100vh;
   background: var(--bg-color);
   color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.trocar-fundo {
+  width: 30px;
+  font-size: 20px;
+  margin: 10px 10px 0 0;
+  color: black;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.trocar-fundo:hover {
+  color: var(--color-button);
+  opacity: 1;
+}
+
+.conteudo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   text-align: center;
-  width: 300px;
-  margin: 60px auto;
+  width: 350px;
 }
 
 img {
   width: 100%;
 }
 
-img.avatar{
+.avatar{
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -21,14 +49,14 @@ img.avatar{
   border: var(--primary-color) solid 4px;
 }
 
-h1 {
+.nome {
   font-size: 32px;
   color: var(--text-color);
   margin-top: 24px;
   margin-bottom: 20px;
 }
 
-.username {
+.proficao {
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
   opacity: 0.8;
@@ -40,7 +68,13 @@ h1 {
   margin: 28px 0;
 }
 
-.lista-de-redes li a {
+.lista-de-redes .redes {
+  display: flex;
+  justify-content: center;
+}
+
+.lista-de-redes .redes .redes-sociais {
+  width: 85%;
   height: 53px;
   display: flex;
   align-items: center;
@@ -54,19 +88,20 @@ h1 {
   border-radius: 6px;
   padding-left: 95px;
 
-  transition: background 400ms;
+  transition: background 400ms ease-in-out;
 }
 
-.lista-de-redes li a:hover{
+.lista-de-redes .redes .redes-sociais:hover{
   background: var(--primary-color-dark);
 }
 
-.lista-de-redes li a i {
+.lista-de-redes .redes .redes-sociais i {
   padding-right: 10px;
   font-size: 2em;
 }
 
 .cabecalho {
+  text-align: center;
   font-weight: 500;
   font-size: 12px;
   color: var(--text-color);
