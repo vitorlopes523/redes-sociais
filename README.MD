@@ -8,7 +8,7 @@ para mudança do tema de fundo do projeto, ficou top!🤌
 
 ### Imagem do Projeto 👌
 
-<img src="./src/imagens/projeto-redes-sociais.gif">
+<img src="./src/imagens/projeto-redes-sociais2.gif">
 
 ### Links
 
