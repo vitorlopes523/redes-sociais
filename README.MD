@@ -12,8 +12,8 @@ para mudança do tema de fundo do projeto, ficou top!🤌
 
 ### Links
 
-- URL do Site ao vivo: [https://vitorlopes523.github.io/redes-sociais/]
-- URL do código no GitHub: [https://github.com/vitorlopes523/redes-sociais]
+- Deploy: [https://vitorlopes523.github.io/redes-sociais/]
+- Repositório: [https://github.com/vitorlopes523/redes-sociais]
 
 ## Meu processo
 
